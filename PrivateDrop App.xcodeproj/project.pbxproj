@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		780FDF0B24CF270F009B2C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780FDF0A24CF270F009B2C6E /* AppDelegate.swift */; };
 		780FDF0F24CF2710009B2C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780FDF0E24CF2710009B2C6E /* Assets.xcassets */; };
 		780FDF1224CF2710009B2C6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780FDF1124CF2710009B2C6E /* Preview Assets.xcassets */; };
 		780FDF1524CF2710009B2C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780FDF1324CF2710009B2C6E /* Main.storyboard */; };
@@ -77,12 +76,6 @@
 		789B80DD24E135F000DA398C /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837068424E12839009C526A /* TestConfiguration.swift */; };
 		78A16BE425344C6000F36541 /* KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A16BE325344C6000F36541 /* KeyboardType.swift */; };
 		78A16BE525344C6000F36541 /* KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A16BE325344C6000F36541 /* KeyboardType.swift */; };
-		78A1837026248E970001FA3D /* PrivateDrop_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1835126248B330001FA3D /* PrivateDrop_Base.framework */; };
-		78A1837126248E970001FA3D /* PrivateDrop_Base.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1835126248B330001FA3D /* PrivateDrop_Base.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		78A1837326248EA00001FA3D /* PrivateDrop_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1835126248B330001FA3D /* PrivateDrop_Base.framework */; };
-		78A1837426248EA00001FA3D /* PrivateDrop_Base.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1835126248B330001FA3D /* PrivateDrop_Base.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		78A1837626248EA80001FA3D /* PrivateDrop_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1835126248B330001FA3D /* PrivateDrop_Base.framework */; };
-		78A1837726248EA80001FA3D /* PrivateDrop_Base.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1835126248B330001FA3D /* PrivateDrop_Base.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		78A4238824D01A1500F1144F /* SenderTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4238724D01A1500F1144F /* SenderTestingView.swift */; };
 		78A4238B24D01A3700F1144F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4238A24D01A3700F1144F /* LoadingView.swift */; };
 		78A4238C24D01A7600F1144F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4238A24D01A3700F1144F /* LoadingView.swift */; };
@@ -107,59 +100,12 @@
 		78DD44D224CEE6D300BEEF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DD44D124CEE6D300BEEF94 /* Assets.xcassets */; };
 		78DD44D524CEE6D300BEEF94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DD44D424CEE6D300BEEF94 /* Preview Assets.xcassets */; };
 		78DD44D824CEE6D300BEEF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DD44D624CEE6D300BEEF94 /* LaunchScreen.storyboard */; };
+		78DF17AE26259C74002854F6 /* PrivateDropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF17AD26259C74002854F6 /* PrivateDropApp.swift */; };
+		78EAB5892625957500771F32 /* PrivateDrop_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAB5882625957500771F32 /* PrivateDrop_Base.framework */; };
+		78EAB58A2625957500771F32 /* PrivateDrop_Base.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAB5882625957500771F32 /* PrivateDrop_Base.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78EAB58C2625957B00771F32 /* PrivateDrop_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAB58B2625957B00771F32 /* PrivateDrop_Base.framework */; };
+		78EAB58D2625957B00771F32 /* PrivateDrop_Base.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAB58B2625957B00771F32 /* PrivateDrop_Base.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78A1835026248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D8500024CB242700994082;
-			remoteInfo = "PrivateDrop Base";
-		};
-		78A1835226248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D84DB724CB193200994082;
-			remoteInfo = "PrivateDrop BaseTests";
-		};
-		78A1835426248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D84F0824CB1C7C00994082;
-			remoteInfo = PSI;
-		};
-		78A1835626248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D84F1F24CB1D9F00994082;
-			remoteInfo = Libarchive;
-		};
-		78A1835826248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D8504724CB252400994082;
-			remoteInfo = OpenSSL;
-		};
-		78A1835A26248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D8506724CB26CE00994082;
-			remoteInfo = "OpenDrop-TestApp";
-		};
-		78A1835C26248B330001FA3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78D8507C24CB26CF00994082;
-			remoteInfo = "OpenDrop-TestAppTests";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		7828E60C2552C083003DD2FC /* CopyFiles */ = {
@@ -177,7 +123,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78A1837126248E970001FA3D /* PrivateDrop_Base.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +133,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78A1837426248EA00001FA3D /* PrivateDrop_Base.framework in Embed Frameworks */,
+				78EAB58A2625957500771F32 /* PrivateDrop_Base.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +144,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78A1837726248EA80001FA3D /* PrivateDrop_Base.framework in Embed Frameworks */,
+				78EAB58D2625957B00771F32 /* PrivateDrop_Base.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +154,6 @@
 /* Begin PBXFileReference section */
 		780FDF0024CF2695009B2C6E /* OpenDrop_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenDrop_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		780FDF0824CF270F009B2C6E /* PrivateDrop Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrivateDrop Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		780FDF0A24CF270F009B2C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		780FDF0E24CF2710009B2C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		780FDF1124CF2710009B2C6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		780FDF1424CF2710009B2C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -254,7 +198,6 @@
 		786AFD9624FCEE5B00E764E8 /* 20_other.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 20_other.plist; sourceTree = "<group>"; };
 		7890387C26021D6C00B4C1B5 /* swift-format-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "swift-format-config.json"; sourceTree = "<group>"; };
 		78A16BE325344C6000F36541 /* KeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardType.swift; sourceTree = "<group>"; };
-		78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "PrivateDrop Base.xcodeproj"; path = "privatedrop-base/PrivateDrop Base.xcodeproj"; sourceTree = "<group>"; };
 		78A4238724D01A1500F1144F /* SenderTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderTestingView.swift; sourceTree = "<group>"; };
 		78A4238A24D01A3700F1144F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		78A4238E24D01CD300F1144F /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
@@ -273,6 +216,9 @@
 		78DD44D724CEE6D300BEEF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DD44D924CEE6D300BEEF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78DD44ED24CEE73A00BEEF94 /* PrivateDrop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrivateDrop.entitlements; sourceTree = "<group>"; };
+		78DF17AD26259C74002854F6 /* PrivateDropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateDropApp.swift; sourceTree = "<group>"; };
+		78EAB5882625957500771F32 /* PrivateDrop_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PrivateDrop_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EAB58B2625957B00771F32 /* PrivateDrop_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PrivateDrop_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FEB8FD25B84DB000C04DF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		78FEB8FE25B8508700C04DF2 /* Screenshot.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -282,7 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1837326248EA00001FA3D /* PrivateDrop_Base.framework in Frameworks */,
+				78EAB5892625957500771F32 /* PrivateDrop_Base.framework in Frameworks */,
 				78471D8B24D2C4630053D3C4 /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +237,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1837026248E970001FA3D /* PrivateDrop_Base.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1837626248EA80001FA3D /* PrivateDrop_Base.framework in Frameworks */,
+				78EAB58C2625957B00771F32 /* PrivateDrop_Base.framework in Frameworks */,
 				78471D8924D2C45A0053D3C4 /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +255,7 @@
 		780FDF0924CF270F009B2C6E /* PrivateDropMac */ = {
 			isa = PBXGroup;
 			children = (
-				780FDF0A24CF270F009B2C6E /* AppDelegate.swift */,
+				78DF17AD26259C74002854F6 /* PrivateDropApp.swift */,
 				780FDF0E24CF2710009B2C6E /* Assets.xcassets */,
 				780FDF1324CF2710009B2C6E /* Main.storyboard */,
 				780FDF1624CF2710009B2C6E /* Info.plist */,
@@ -388,6 +333,8 @@
 		783E72F724CF0CD200DA5518 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78EAB58B2625957B00771F32 /* PrivateDrop_Base.framework */,
+				78EAB5882625957500771F32 /* PrivateDrop_Base.framework */,
 				7828E6182552C08B003DD2FC /* OpenDrop_Base.framework */,
 				780FDF3424CF275A009B2C6E /* OpenDrop_Base.framework */,
 				780FDF0024CF2695009B2C6E /* OpenDrop_Base.framework */,
@@ -422,20 +369,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		78A1834726248B330001FA3D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78A1835126248B330001FA3D /* PrivateDrop_Base.framework */,
-				78A1835326248B330001FA3D /* PrivateDrop BaseTests.xctest */,
-				78A1835526248B330001FA3D /* PSI.a */,
-				78A1835726248B330001FA3D /* Libarchive.a */,
-				78A1835926248B330001FA3D /* OpenSSL.a */,
-				78A1835B26248B330001FA3D /* OpenDrop-TestApp.app */,
-				78A1835D26248B330001FA3D /* OpenDrop-TestAppTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		78A4238924D01A1D00F1144F /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,7 +401,6 @@
 				78DD44CA24CEE6D200BEEF94 /* PrivateDropiOS */,
 				780FDF0924CF270F009B2C6E /* PrivateDropMac */,
 				7828E60F2552C083003DD2FC /* PrivateDropCLI */,
-				78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */,
 				78DD44C924CEE6D200BEEF94 /* Products */,
 				783E72F724CF0CD200DA5518 /* Frameworks */,
 			);
@@ -606,12 +538,6 @@
 			);
 			productRefGroup = 78DD44C924CEE6D200BEEF94 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 78A1834726248B330001FA3D /* Products */;
-					ProjectRef = 78A1834626248B330001FA3D /* PrivateDrop Base.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				78DD44C724CEE6D200BEEF94 /* PrivateDrop iOS */,
@@ -620,58 +546,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		78A1835126248B330001FA3D /* PrivateDrop_Base.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PrivateDrop_Base.framework;
-			remoteRef = 78A1835026248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78A1835326248B330001FA3D /* PrivateDrop BaseTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "PrivateDrop BaseTests.xctest";
-			remoteRef = 78A1835226248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78A1835526248B330001FA3D /* PSI.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = PSI.a;
-			remoteRef = 78A1835426248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78A1835726248B330001FA3D /* Libarchive.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = Libarchive.a;
-			remoteRef = 78A1835626248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78A1835926248B330001FA3D /* OpenSSL.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = OpenSSL.a;
-			remoteRef = 78A1835826248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78A1835B26248B330001FA3D /* OpenDrop-TestApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "OpenDrop-TestApp.app";
-			remoteRef = 78A1835A26248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78A1835D26248B330001FA3D /* OpenDrop-TestAppTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "OpenDrop-TestAppTests.xctest";
-			remoteRef = 78A1835C26248B330001FA3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		780FDF0624CF270F009B2C6E /* Resources */ = {
@@ -768,7 +642,6 @@
 				78A16BE525344C6000F36541 /* KeyboardType.swift in Sources */,
 				780FDF3024CF2748009B2C6E /* AppConfiguration.swift in Sources */,
 				78A4239324D01E7900F1144F /* ReceiverTestingView.swift in Sources */,
-				780FDF0B24CF270F009B2C6E /* AppDelegate.swift in Sources */,
 				78A4238C24D01A7600F1144F /* LoadingView.swift in Sources */,
 				78CBB83124D408EB0001E62C /* MeasurementEntryPSILocally.swift in Sources */,
 				780FDF3A24CF2B30009B2C6E /* SenderStartView.swift in Sources */,
@@ -776,6 +649,7 @@
 				7817F61425AE114B00028BCF /* CurveTestingView.swift in Sources */,
 				78A4239024D01CD300F1144F /* ProgressBar.swift in Sources */,
 				78CBB82F24D4089D0001E62C /* PSIStartView.swift in Sources */,
+				78DF17AE26259C74002854F6 /* PrivateDropApp.swift in Sources */,
 				7843A11424D0B92E00125C08 /* MeasurementEntry.swift in Sources */,
 				7823C8B8252DEB43003067AD /* Logger.swift in Sources */,
 				78A4238D24D01C5100F1144F /* SenderTestingView.swift in Sources */,

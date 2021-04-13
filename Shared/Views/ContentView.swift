@@ -18,23 +18,71 @@ enum AvailableViews: String, CaseIterable, Identifiable {
 struct ContentView: View {
     @EnvironmentObject var testController: TestController
     @EnvironmentObject var psiTest: PSITestController
+    @State var selectedToolbarItem = 0
 
     var body: some View {
-        TabView {
-            self.privateDropTests
-                .tabItem {
-                    Text("PrivateDrop")
+        #if os(macOS)
+            Group {
+                if selectedToolbarItem == 0 {
+                    self.privateDropTests
+                } else {
+                    CurveTestingView()
                 }
+            }
+            .toolbar(content: {
+                self.toolbar
+            })
+            .navigationTitle(Text("PrivateDrop testing"))
 
-            CurveTestingView()
-                .tabItem { Text("Curve Test") }
+        #else
+            TabView {
+                self.privateDropTests
+                    .tabItem {
+                        Image(systemName: "wifi")
+                        Text("PrivateDrop")
+                    }
+
+                CurveTestingView()
+                    .tabItem {
+                        Image(systemName: "target")
+                        Text("Curve Test")
+                    }
+            }
+        #endif
+    }
+
+    var toolbar: some ToolbarContent {
+        Group {
+            ToolbarItemGroup {
+                Button(
+                    action: {
+                        self.selectedToolbarItem = 0
+                    },
+                    label: {
+                        HStack {
+                            Image(systemName: "wifi")
+                            Text("PrivateDrop")
+                        }
+                    })
+
+                Button(
+                    action: {
+                        self.selectedToolbarItem = 1
+                    },
+                    label: {
+                        HStack {
+                            Image(systemName: "target")
+                            Text("Curve Test")
+                        }
+                    })
+            }
         }
     }
 
     var privateDropTests: some View {
         VStack {
             Group {
-                Picker(selection: self.$testController.role, label: Text("Select view")) {
+                Picker(selection: self.$testController.role, label: Text("Select role")) {
                     Text("Sender").tag(TestController.Role.sender)
                     Text("Receiver").tag(TestController.Role.receiver)
                 }
@@ -51,7 +99,6 @@ struct ContentView: View {
 
             }.padding([.leading, .trailing])
             Spacer()
-
         }
     }
 

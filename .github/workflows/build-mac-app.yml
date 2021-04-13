@@ -25,26 +25,10 @@ jobs:
       - name: "Run swift-format"
         run: swift-format --recursive --mode lint .
 
-  format-objc:
-    runs-on: macos-11.0
-    steps:
-      - name: "Checkout code"
-        uses: actions/checkout@v2
-      - name: "Checkout submodules"
-        run: | 
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-      - name: "Install clang-format"
-        run: brew install clang-format
-      - name: "Run clang-format"
-        run: clang-format -n **/*.{h,m}
-
   build-app:
     runs-on: macos-11.0
     needs:
       - format-swift
-      - format-objc
     steps:
       - name: "Checkout code"
         uses: actions/checkout@v2
@@ -58,4 +42,4 @@ jobs:
         with:
           version: "12"
       - name: "Archive project"
-        run: xcodebuild archive -scheme PrivateDropMac -workspace OpenDrop_Workspace.xcworkspace  -configuration release -archivePath ${APP}.xcarchive
+        run: xcodebuild archive -scheme PrivateDrop\ Mac -workspace PrivateDrop_Workspace.xcworkspace  -configuration release -archivePath ${APP}.xcarchive
