@@ -1,0 +1,162 @@
+2020-10-12 13:07:14 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f94c1a8bc50; archive(resolved)='<IDEArchive: 0x7f94f09b78a0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f94c1a8bc50; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f94c217f720; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9517f8db10; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f94c42686c0; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9500ce80a0; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f94c2db3660; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f94c3115b90; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f94c2b67150; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f95009b7050; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f94c14277a0; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='(null)'>
+	<IDEDistributionContext: 0x7f94c0efb470; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f94c2b3a490>', team='(null)'>
+	<IDEDistributionContext: 0x7f94c42c3170; archive = '<IDEArchive: 0x7f94f09b78a0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f94c1a8bc50>
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionCopyItemStep
+2020-10-12 13:07:14 +0000  Running /usr/bin/ditto '-V' '/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app'
+2020-10-12 13:07:14 +0000  >>> Copying /Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app 
+2020-10-12 13:07:14 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2020-10-12 13:07:14 +0000  7147 bytes for ./Contents/_CodeSignature/CodeResources
+2020-10-12 13:07:14 +0000  copying file ./Contents/MacOS/OpenDropMac ... 
+2020-10-12 13:07:14 +0000  1001200 bytes for ./Contents/MacOS/OpenDropMac
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/10_y.cms ... 
+2020-10-12 13:07:14 +0000  1655 bytes for ./Contents/Resources/10_y.cms
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/1000_y.cms ... 
+2020-10-12 13:07:14 +0000  41270 bytes for ./Contents/Resources/1000_y.cms
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/5_other.plist ... 
+2020-10-12 13:07:14 +0000  604 bytes for ./Contents/Resources/5_other.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/20_other.plist ... 
+2020-10-12 13:07:14 +0000  2182 bytes for ./Contents/Resources/20_other.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/1000_other.plist ... 
+2020-10-12 13:07:14 +0000  114043 bytes for ./Contents/Resources/1000_other.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/record.data ... 
+2020-10-12 13:07:14 +0000  4230 bytes for ./Contents/Resources/record.data
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/ClientCertificate.p12 ... 
+2020-10-12 13:07:14 +0000  2485 bytes for ./Contents/Resources/ClientCertificate.p12
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/100_other.plist ... 
+2020-10-12 13:07:14 +0000  10886 bytes for ./Contents/Resources/100_other.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/alex_psiPrivate.plist ... 
+2020-10-12 13:07:14 +0000  789 bytes for ./Contents/Resources/alex_psiPrivate.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2020-10-12 13:07:14 +0000  36712 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-10-12 13:07:14 +0000  163 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/100_y.cms ... 
+2020-10-12 13:07:14 +0000  5167 bytes for ./Contents/Resources/100_y.cms
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/5_y.cms ... 
+2020-10-12 13:07:14 +0000  1451 bytes for ./Contents/Resources/5_y.cms
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/10_other.plist ... 
+2020-10-12 13:07:14 +0000  1115 bytes for ./Contents/Resources/10_other.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/ServerCertificate.p12 ... 
+2020-10-12 13:07:14 +0000  2479 bytes for ./Contents/Resources/ServerCertificate.p12
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/20_y.cms ... 
+2020-10-12 13:07:14 +0000  2047 bytes for ./Contents/Resources/20_y.cms
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/1_other.plist ... 
+2020-10-12 13:07:14 +0000  161 bytes for ./Contents/Resources/1_other.plist
+2020-10-12 13:07:14 +0000  copying file ./Contents/Resources/1_y.cms ... 
+2020-10-12 13:07:14 +0000  1298 bytes for ./Contents/Resources/1_y.cms
+copying file ./Contents/Resources/alex_signedY.cms ... 
+2020-10-12 13:07:14 +0000  1538 bytes for ./Contents/Resources/alex_signedY.cms
+2020-10-12 13:07:14 +0000  copying symlink ./Contents/Frameworks/OpenDrop_Base.framework/OpenDrop_Base ... 
+2020-10-12 13:07:14 +0000  linked ./Contents/Frameworks/OpenDrop_Base.framework/OpenDrop_Base
+copying symlink ./Contents/Frameworks/OpenDrop_Base.framework/Resources ... 
+2020-10-12 13:07:14 +0000  linked ./Contents/Frameworks/OpenDrop_Base.framework/Resources
+2020-10-12 13:07:14 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/_CodeSignature/CodeResources ... 
+2020-10-12 13:07:14 +0000  2916 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/_CodeSignature/CodeResources
+2020-10-12 13:07:14 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base ... 
+2020-10-12 13:07:14 +0000  8891488 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base
+2020-10-12 13:07:14 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/OpenDropCA.cer ... 
+798 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/OpenDropCA.cer
+copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Apple Root CA.crt ... 
+1215 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Apple Root CA.crt
+copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Info.plist ... 
+1363 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Info.plist
+copying symlink ./Contents/Frameworks/OpenDrop_Base.framework/Versions/Current ... 
+linked ./Contents/Frameworks/OpenDrop_Base.framework/Versions/Current
+copying file ./Contents/Info.plist ... 
+2020-10-12 13:07:14 +0000  1639 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+2020-10-12 13:07:14 +0000  8 bytes for ./Contents/PkgInfo
+2020-10-12 13:07:14 +0000  /usr/bin/ditto exited with 0
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-10-12 13:07:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f94c16187a0; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f94c7dae5e0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f94f113a860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94c0eea150; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f94b3d79720>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='(null)', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f94c3130cc0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'>
+2020-10-12 13:07:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f94c2e47db0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f94e07b57d0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9587f9e450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94c2b821c0; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f94b3dc3d80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='{
+}', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f94c2d8cd40:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/MacOS/OpenDropMac'>', hardenedRuntime='0'>'>
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionSymbolsStep
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionAppThinningStep
+2020-10-12 13:07:14 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionArchThinningStep
+2020-10-12 13:07:14 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base' '-verify_arch' 'arm64e'
+2020-10-12 13:07:14 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-10-12 13:07:14 +0000  Skipping architecture thinning for item "OpenDrop_Base" because arch "arm64e" wasn't found
+2020-10-12 13:07:14 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/MacOS/OpenDropMac' '-verify_arch' 'arm64e'
+2020-10-12 13:07:14 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-10-12 13:07:14 +0000  Skipping architecture thinning for item "OpenDropMac" because arch "arm64e" wasn't found
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionODRStep
+2020-10-12 13:07:14 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-10-12 13:07:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f94c16187a0; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f94c7dae5e0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f94f113a860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94d79b8d90; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f94b3df5820>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='(null)', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f94c3130cc0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'>
+2020-10-12 13:07:14 +0000  Running /usr/bin/xattr '-crs' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app'
+2020-10-12 13:07:15 +0000  /usr/bin/xattr exited with 0
+2020-10-12 13:07:15 +0000  Processing step: IDEDistributionCodesignStep
+2020-10-12 13:07:15 +0000  Entitlements for <IDEDistributionItem: 0x7f94c16187a0; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f94c7dae5e0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f94f113a860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94d79bb7f0; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f94b47a0540>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='(null)', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f94c3130cc0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'>: {
+}
+2020-10-12 13:07:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f94c16187a0; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f94c7dae5e0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f94f113a860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94c2bba800; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f94b47bf200>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='(null)', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f94c3130cc0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'> to: /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/entitlements~~~6tlOOl
+2020-10-12 13:07:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E9B3B954540A036F16BCCBE632A537E434134D0D' '--entitlements' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/entitlements~~~6tlOOl' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "A5U65N39SD" ))' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'
+2020-10-12 13:07:15 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A: replacing existing signature
+2020-10-12 13:07:15 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [de.tu-darmstadt.seemoo.OpenDrop-Base]
+2020-10-12 13:07:15 +0000  /usr/bin/codesign exited with 0
+2020-10-12 13:07:15 +0000  Entitlements for <IDEDistributionItem: 0x7f94c2e47db0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f94e07b57d0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9587f9e450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94e7f5a5d0; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f95d7c8f300>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='{
+}', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f94c2d8cd40:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/MacOS/OpenDropMac'>', hardenedRuntime='0'>'>: {
+}
+2020-10-12 13:07:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f94c2e47db0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f94e07b57d0:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9587f9e450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94c2d29130; name='Apple Development: Alexander Heinrich (9SHN3D76Y3)', hash='A6BCA5BD64563B77B849B6B05E7FE924F04842B0', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f95213f5f10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-17 10:55:41 +0000''>', entitlements='{
+}', teamID='A5U65N39SD', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f94c2d8cd40:'/Users/seemoo/Library/Developer/Xcode/Archives/2020-10-12/OpenDropMac-Measurement 12.10.20, 15.06.xcarchive/Products/Applications/OpenDropMac.app/Contents/MacOS/OpenDropMac'>', hardenedRuntime='0'>'> to: /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/entitlements~~~EAbxwc
+2020-10-12 13:07:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E9B3B954540A036F16BCCBE632A537E434134D0D' '--entitlements' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/entitlements~~~EAbxwc' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "A5U65N39SD" ))' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app'
+2020-10-12 13:07:15 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app: replacing existing signature
+2020-10-12 13:07:15 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app: signed app bundle with Mach-O thin (x86_64) [de.tu-darmstadt.seemoo.OpenDropMac]
+2020-10-12 13:07:15 +0000  /usr/bin/codesign exited with 0
+2020-10-12 13:07:15 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-10-12 13:07:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-12 13:07:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-12 13:07:15 +0000  Processing step: IDEDistributionSkipPackagingStep
+2020-10-12 13:07:15 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-10-12 13:07:15 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-10-12 13:07:15 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-10-12 13:07:15 +0000  IDEDistributionItem init <DVTFilePath:0x7f94d79ee610:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>
+2020-10-12 13:07:15 +0000  IDEDistributionItem init <DVTFilePath:0x7f94c1ada050:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app'>
+2020-10-12 13:07:15 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x7f94c1ada050:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x7f94f0932c30:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x7f94f0932c30:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~tnPD3H/Root/Applications/OpenDropMac.app/Contents/embedded.provisionprofile'>}
+2020-10-12 13:07:15 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-10-12 13:07:15 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

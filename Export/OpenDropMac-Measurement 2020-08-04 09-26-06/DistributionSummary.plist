@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OpenDropMac-Measurement</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E9B3B954540A036F16BCCBE632A537E434134D0D</string>
+				<key>dateExpires</key>
+				<string>27.06.25</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>x86_64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E9B3B954540A036F16BCCBE632A537E434134D0D</string>
+						<key>dateExpires</key>
+						<string>27.06.25</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>name</key>
+					<string>OpenDrop_Base.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>A5U65N39SD</string>
+						<key>name</key>
+						<string>Alexander Heinrich</string>
+					</dict>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>OpenDropMac.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>A5U65N39SD</string>
+				<key>name</key>
+				<string>Alexander Heinrich</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

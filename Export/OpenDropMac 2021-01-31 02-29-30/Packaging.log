@@ -1,0 +1,152 @@
+2021-01-31 01:29:26 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f932afa8860; archive(resolved)='<IDEArchive: 0x7f92eff14840>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f932afa8860; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f932afac680; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f932aad4ad0; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f935d6ae1f0; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f935ad72870; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f935d8beae0; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f935ab5cb50; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f93594082f0; teamID='A5U65N39SD', teamName='Alexander Heinrich', teamType='Individual', username='alexander-heinrich@posteo.de', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f935d1d9b30; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='(null)'>
+	<IDEDistributionContext: 0x7f93482ae2b0; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='(null)'>
+	<IDEDistributionContext: 0x7f935d8c2c00; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f92eff10190>', team='(null)'>
+	<IDEDistributionContext: 0x7f935ad0a390; archive = '<IDEArchive: 0x7f92eff14840>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f932afa8860>
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionCopyItemStep
+2021-01-31 01:29:26 +0000  Running /usr/bin/ditto '-V' '/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app'
+2021-01-31 01:29:26 +0000  >>> Copying /Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app 
+2021-01-31 01:29:26 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2021-01-31 01:29:26 +0000  7448 bytes for ./Contents/_CodeSignature/CodeResources
+2021-01-31 01:29:26 +0000  copying file ./Contents/MacOS/PrivateDrop Mac ... 
+2021-01-31 01:29:26 +0000  981392 bytes for ./Contents/MacOS/PrivateDrop Mac
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/10_y.cms ... 
+2021-01-31 01:29:26 +0000  3352 bytes for ./Contents/Resources/10_y.cms
+copying file ./Contents/Resources/1000_y.cms ... 
+2021-01-31 01:29:26 +0000  71668 bytes for ./Contents/Resources/1000_y.cms
+copying file ./Contents/Resources/5_other.plist ... 
+2021-01-31 01:29:26 +0000  1160 bytes for ./Contents/Resources/5_other.plist
+copying file ./Contents/Resources/20_other.plist ... 
+2021-01-31 01:29:26 +0000  3740 bytes for ./Contents/Resources/20_other.plist
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/1000_other.plist ... 
+2021-01-31 01:29:26 +0000  172300 bytes for ./Contents/Resources/1000_other.plist
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/record.data ... 
+2021-01-31 01:29:26 +0000  3723 bytes for ./Contents/Resources/record.data
+copying file ./Contents/Resources/ClientCertificate.p12 ... 
+2021-01-31 01:29:26 +0000  4085 bytes for ./Contents/Resources/ClientCertificate.p12
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/100_other.plist ... 
+2021-01-31 01:29:26 +0000  17500 bytes for ./Contents/Resources/100_other.plist
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/alex_psiPrivate.plist ... 
+2021-01-31 01:29:26 +0000  789 bytes for ./Contents/Resources/alex_psiPrivate.plist
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2021-01-31 01:29:26 +0000  36536 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2021-01-31 01:29:26 +0000  163 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/100_y.cms ... 
+2021-01-31 01:29:26 +0000  9562 bytes for ./Contents/Resources/100_y.cms
+copying file ./Contents/Resources/5_y.cms ... 
+2021-01-31 01:29:26 +0000  3007 bytes for ./Contents/Resources/5_y.cms
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/10_other.plist ... 
+2021-01-31 01:29:26 +0000  2020 bytes for ./Contents/Resources/10_other.plist
+copying file ./Contents/Resources/sample_y.cms ... 
+2021-01-31 01:29:26 +0000  2359 bytes for ./Contents/Resources/sample_y.cms
+copying file ./Contents/Resources/ServerCertificate.p12 ... 
+2021-01-31 01:29:26 +0000  4085 bytes for ./Contents/Resources/ServerCertificate.p12
+copying file ./Contents/Resources/20_y.cms ... 
+2021-01-31 01:29:26 +0000  4042 bytes for ./Contents/Resources/20_y.cms
+copying file ./Contents/Resources/1_other.plist ... 
+2021-01-31 01:29:26 +0000  472 bytes for ./Contents/Resources/1_other.plist
+copying file ./Contents/Resources/1_y.cms ... 
+2021-01-31 01:29:26 +0000  2731 bytes for ./Contents/Resources/1_y.cms
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/sample_ids_psi.plist ... 
+2021-01-31 01:29:26 +0000  386 bytes for ./Contents/Resources/sample_ids_psi.plist
+2021-01-31 01:29:26 +0000  copying file ./Contents/Resources/alex_signedY.cms ... 
+2021-01-31 01:29:26 +0000  1538 bytes for ./Contents/Resources/alex_signedY.cms
+2021-01-31 01:29:26 +0000  copying symlink ./Contents/Frameworks/OpenDrop_Base.framework/OpenDrop_Base ... 
+2021-01-31 01:29:26 +0000  linked ./Contents/Frameworks/OpenDrop_Base.framework/OpenDrop_Base
+copying symlink ./Contents/Frameworks/OpenDrop_Base.framework/Resources ... 
+2021-01-31 01:29:26 +0000  linked ./Contents/Frameworks/OpenDrop_Base.framework/Resources
+2021-01-31 01:29:26 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/_CodeSignature/CodeResources ... 
+2021-01-31 01:29:26 +0000  3194 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/_CodeSignature/CodeResources
+2021-01-31 01:29:26 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base ... 
+2021-01-31 01:29:26 +0000  9887264 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base
+2021-01-31 01:29:26 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Apple Root CA.crt ... 
+2021-01-31 01:29:26 +0000  1215 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Apple Root CA.crt
+2021-01-31 01:29:26 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/AppleIncRootCertificate.cer ... 
+2021-01-31 01:29:26 +0000  1215 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/AppleIncRootCertificate.cer
+2021-01-31 01:29:26 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/OpenDrop-PSI-Sign-3.pem ... 
+2021-01-31 01:29:26 +0000  5922 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/OpenDrop-PSI-Sign-3.pem
+2021-01-31 01:29:26 +0000  copying file ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Info.plist ... 
+2021-01-31 01:29:26 +0000  1355 bytes for ./Contents/Frameworks/OpenDrop_Base.framework/Versions/A/Resources/Info.plist
+2021-01-31 01:29:26 +0000  copying symlink ./Contents/Frameworks/OpenDrop_Base.framework/Versions/Current ... 
+2021-01-31 01:29:26 +0000  linked ./Contents/Frameworks/OpenDrop_Base.framework/Versions/Current
+2021-01-31 01:29:26 +0000  copying file ./Contents/Info.plist ... 
+2021-01-31 01:29:26 +0000  1639 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+2021-01-31 01:29:26 +0000  8 bytes for ./Contents/PkgInfo
+2021-01-31 01:29:26 +0000  /usr/bin/ditto exited with 0
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-01-31 01:29:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f935decdc60; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f92ff15fbe0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f935a8531a0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f92ff1603b0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'>
+2021-01-31 01:29:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f935a20a5f0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f935aec1070:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9358de3d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f92eff0aca0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/MacOS/PrivateDrop Mac'>', hardenedRuntime='0'>'>
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionSymbolsStep
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionAppThinningStep
+2021-01-31 01:29:26 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionArchThinningStep
+2021-01-31 01:29:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base' '-verify_arch' 'arm64e'
+2021-01-31 01:29:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-01-31 01:29:26 +0000  Skipping architecture thinning for item "OpenDrop_Base" because arch "arm64e" wasn't found
+2021-01-31 01:29:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/MacOS/PrivateDrop Mac' '-verify_arch' 'arm64e'
+2021-01-31 01:29:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-01-31 01:29:26 +0000  Skipping architecture thinning for item "PrivateDrop Mac" because arch "arm64e" wasn't found
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionODRStep
+2021-01-31 01:29:26 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-01-31 01:29:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f935decdc60; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f92ff15fbe0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f935a8531a0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f92ff1603b0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'>
+2021-01-31 01:29:26 +0000  Running /usr/bin/xattr '-crs' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app'
+2021-01-31 01:29:27 +0000  /usr/bin/xattr exited with 0
+2021-01-31 01:29:27 +0000  Processing step: IDEDistributionCodesignStep
+2021-01-31 01:29:27 +0000  Entitlements for <IDEDistributionItem: 0x7f935decdc60; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f92ff15fbe0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f935a8531a0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f92ff1603b0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'>: {
+}
+2021-01-31 01:29:27 +0000  Entitlements for <IDEDistributionItem: 0x7f935decdc60; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f92ff15fbe0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f935a8531a0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f92ff1603b0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'> are: {
+}
+2021-01-31 01:29:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f935decdc60; bundleID='de.tu-darmstadt.seemoo.OpenDrop-Base', path='<DVTFilePath:0x7f92ff15fbe0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f935a8531a0; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDrop-Base', executablePath='<DVTFilePath:0x7f92ff1603b0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A/OpenDrop_Base'>', hardenedRuntime='0'>'> to: /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/entitlements~~~dJx6pZ
+2021-01-31 01:29:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E9B3B954540A036F16BCCBE632A537E434134D0D' '--entitlements' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/entitlements~~~dJx6pZ' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "A5U65N39SD" ))' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'
+2021-01-31 01:29:27 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A: replacing existing signature
+2021-01-31 01:29:27 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [de.tu-darmstadt.seemoo.OpenDrop-Base]
+2021-01-31 01:29:27 +0000  /usr/bin/codesign exited with 0
+2021-01-31 01:29:27 +0000  Entitlements for <IDEDistributionItem: 0x7f935a20a5f0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f935aec1070:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9358de3d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f92eff0aca0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/MacOS/PrivateDrop Mac'>', hardenedRuntime='0'>'>: {
+}
+2021-01-31 01:29:27 +0000  Entitlements for <IDEDistributionItem: 0x7f935a20a5f0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f935aec1070:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9358de3d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f92eff0aca0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/MacOS/PrivateDrop Mac'>', hardenedRuntime='0'>'> are: {
+}
+2021-01-31 01:29:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f935a20a5f0; bundleID='de.tu-darmstadt.seemoo.OpenDropMac', path='<DVTFilePath:0x7f935aec1070:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9358de3d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='de.tu-darmstadt.seemoo.OpenDropMac', executablePath='<DVTFilePath:0x7f92eff0aca0:'/Users/seemoo/Library/Developer/Xcode/Archives/2021-01-31/OpenDropMac 31.01.21, 02.26.xcarchive/Products/Applications/PrivateDrop Mac.app/Contents/MacOS/PrivateDrop Mac'>', hardenedRuntime='0'>'> to: /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/entitlements~~~TH0ycT
+2021-01-31 01:29:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E9B3B954540A036F16BCCBE632A537E434134D0D' '--entitlements' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/entitlements~~~TH0ycT' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "A5U65N39SD" ))' '/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app'
+2021-01-31 01:29:27 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app: replacing existing signature
+2021-01-31 01:29:28 +0000  /var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app: signed app bundle with Mach-O thin (x86_64) [de.tu-darmstadt.seemoo.OpenDropMac]
+2021-01-31 01:29:28 +0000  /usr/bin/codesign exited with 0
+2021-01-31 01:29:28 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-01-31 01:29:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-01-31 01:29:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-01-31 01:29:28 +0000  Processing step: IDEDistributionSkipPackagingStep
+2021-01-31 01:29:28 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-01-31 01:29:28 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-01-31 01:29:28 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-01-31 01:29:28 +0000  IDEDistributionItem init <DVTFilePath:0x7f935ad103a0:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/Frameworks/OpenDrop_Base.framework/Versions/A'>
+2021-01-31 01:29:28 +0000  IDEDistributionItem init <DVTFilePath:0x7f93aff4bdb0:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app'>
+2021-01-31 01:29:28 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x7f93aff4bdb0:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x7f935adcd150:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x7f935adcd150:'/var/folders/3_/vxcr03h12317925whg6vnfth0000gr/T/XcodeDistPipeline.~~~k71NpD/Root/Applications/PrivateDrop Mac.app/Contents/embedded.provisionprofile'>}
+2021-01-31 01:29:28 +0000  Processing step: IDEDistributionCreateManifestStep
+2021-01-31 01:29:28 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:/Users/seemoo/Work/Research/OpenDrop/OpenDrop App/PrivateDrop App.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:privatedrop-base/PrivateDrop Base.xcodeproj">
+   </FileRef>
+</Workspace>

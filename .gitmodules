@@ -1,0 +1,3 @@
+[submodule "privatedrop-base"]
+	path = privatedrop-base
+	url = https://github.com/seemoo-lab/PrivateDrop-Base.git
